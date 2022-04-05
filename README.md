@@ -1,7 +1,9 @@
 # FileEncodingTrans
 
+```diff
+! 运行脚本【FileEncodingTrans.py】
+```
 
-运行【FileEncodingTrans.py】即可，运行不了的话请注意自己是否安装了相应的模块(如PyQt
 使用时需注意的是，脚本使用chardet.detect进行编码判断，所以有判断失误的可能性。
 
 对于那些编码判断失误的文件，按理说应该还得弄个强转换的(就是用户自己指定文件源编码和目标编码)，
